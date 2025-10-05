@@ -1,0 +1,666 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+
+}
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.5s ease;
+}
+
+nav {
+  background-color: #000000;
+  color: white;
+  padding: 100px;
+  height: 100px;
+}
+.navbar-brand img {
+  height: 60px;
+  display: inline-block;  
+  margin: 0;  
+    }
+.footer, .kfc-deal-card {
+  background-color: #000 !important;
+}
+html, body {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+section, .container, .container-fluid, .row, .col, .kfc-section-wrapper, .offcanvas, .card, .carousel {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.navbar-brand {
+  text-align: left !important;  
+}
+.header-login {
+  margin-right: auto;
+}
+
+.brand-logo {
+  height: 50px;        
+  display: block;
+}
+.hi {
+  background-color: #EA002A;     
+  color: white;            
+  border: none;             
+  padding: 5px 30px;        
+  font-size: 18px;         
+  width: 600px;              
+  border-radius: 8px;       
+  cursor: pointer;           
+  display: block;           
+  font-weight: 100;        
+  width: 60%;      
+  max-width: 600px;   
+  min-width: 500px; 
+}
+
+hi:hover {
+  background-color: darkred; 
+}
+
+
+.custom-btn {
+  color: white !important;    
+  border: none;
+  padding: 5px 5px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 50;
+  transition: 0.3s ease;
+
+}
+
+.custom-btn:hover {
+  background-color: #4b0082; 
+  color: white;             
+  cursor: pointer;
+}
+.red-outline {
+  border: 3px solid #ea002a !important;
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.card-name {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-name::after {
+  content: "";
+  display: block;
+  width: 60%;
+  height: 3px;
+  background: #ea002a;  
+  margin: 5px auto 0;   
+}
+
+.card:hover {
+  transform: none; 
+  box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
+
+.card {
+  transition: transform 0.6s ease-in-out;
+background: url('/images/logo.png') no-repeat center center;
+  background-size: cover; 
+  border: none; 
+  box-shadow: none; 
+}
+
+.card-img-top {
+  transition: transform 0.4s ease-in-out; 
+}
+.col-6:hover .card-img-top {
+  transform: translateY(-12px) scale(1.05); 
+}
+
+.card-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+    color: white; 
+  text-align: center;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.card-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 50%; 
+  height: 3px; 
+  background-color: red; 
+  border-radius: 2px;
+    content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 3px;
+  background-color: red;
+  border-radius: 2px;
+}
+
+.card-body {
+  background: transparent; 
+}
+
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.menu-item {
+  text-align: center;
+}
+
+.circle-bg {
+  background: #64595e; 
+  border-radius: 50%;
+  width: 205px;
+  height: 205px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.circle-bg img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.menu-item h5 {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.red-line {
+  width: 40px;
+  height: 4px;
+  background: red;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+.menu-item:hover .circle-bg {
+  transform: translateY(-8px);
+}
+
+
+.scroll-container {
+  display: flex;
+  gap: 20px;            
+  overflow-x: auto;       
+  padding-bottom: 15px;   
+  scrollbar-width: thin;  
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 1px;         
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #ea002a;   
+  border-radius: 4px;
+}
+.scroll-container::-webkit-scrollbar-track {
+  background: #222;     
+}
+
+.kfc-card {
+  min-width: 220px;    
+  flex: 0 0 auto;        
+}
+body {
+    background-color: #000;
+}
+
+.kfc-section-wrapper {
+    background-color: #000;
+}
+
+.kfc-header {
+    font-weight: 900; 
+    letter-spacing: 2px;
+    padding-left: 15px; 
+}
+
+.kfc-card-col {
+    background-color: #000;
+    border-right: 1px solid #333; 
+    border-bottom: 1px solid #333; 
+}
+@media (min-width: 768px) {
+    .kfc-card-col:nth-child(4n) {
+        border-right: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .kfc-card-col {
+        border-bottom: none;
+    }
+}
+
+
+.kfc-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    text-align: center;
+    padding: 20px;
+    height: 100%; 
+    position: relative; 
+    background-color: #000;
+}
+
+.kfc-card-title {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.kfc-card-image {
+    margin-top: auto; 
+    width: 100%;
+    padding-bottom: 10px; 
+}
+
+.kfc-card-image img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.kfc-price-tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e4002b;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 15px;
+    font-size: 0.9rem;
+    border-bottom-left-radius: 10px; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+    z-index: 10;
+}
+.kfc-explore-header {
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    margin-bottom: 30px !important;
+}
+
+.kfc-menu-col {
+    padding: 0 10px;
+    border-right: 1px solid #333;
+    margin-bottom: 20px; 
+}
+
+@media (min-width: 992px) { 
+    .kfc-menu-col:last-child {
+        border-right: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .kfc-menu-col:nth-child(2n) {
+        border-right: none;
+    }
+    .kfc-menu-col:nth-child(5) {
+        border-right: none; 
+    }
+}
+
+.kfc-menu-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.kfc-menu-circle {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    background-color: #333333; 
+    border: none; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kfc-menu-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    display: block;
+}
+
+.kfc-menu-title {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.kfc-red-underline {
+    width: 30px; 
+    height: 3px;
+    background-color: #e4002b; 
+    border-radius: 2px;
+}
+.kfc-header {
+    font-weight: 900; 
+    letter-spacing: 2px;
+    padding-left: 15px; 
+}
+.kfc-section-title {
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding-left: 15px; 
+    margin-bottom: 5px; 
+}
+
+.kfc-section-header-wrapper {
+    padding-left: 15px; 
+    margin-bottom: 20px;
+}
+
+.kfc-header-underline {
+    width: 60px; 
+    height: 4px; 
+    background-color: #e4002b;
+    margin-left: 15px; 
+    margin-bottom: 25px; 
+}
+.kfc-menu-card:hover .kfc-menu-circle {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+.kfc-footer {
+    background-color: #171717; 
+    color: #ccc;
+    
+
+}
+.kfc-footer .kfc-logo-text {
+    color: var(--kfc-red);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.footer-list-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.footer-link, .footer-info {
+    color: #ccc !important;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+    line-height: 2; 
+}
+.footer-link:hover {
+    color: red !important;
+}
+.app-store-btn {
+    max-width: 150px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.powered-by {
+    font-size: 0.8rem;
+    text-align: right;
+      color: red;
+}
+.powered-by a {
+    color: var(--kfc-red);
+    text-decoration: none;
+    font-weight: bold;
+  
+}
+
+.kfc-menu-circle {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    background-color: #333333; 
+    border: none; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.kfc-menu-card:hover .kfc-menu-circle {
+    transform: translateY(-5px); 
+    box-shadow: 0 0 15px rgba(228, 0, 43, 0.4);
+}
+.kfc-carousel-control {
+    opacity: 1 !important; 
+    width: 5% !important; 
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23E4002B'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e") !important;
+    width: 2rem !important;
+    height: 2rem !important;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23E4002B'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+    width: 2rem !important;
+    height: 2rem !important;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background: transparent !important;
+}
+.carousel-control-prev {
+    left: -20px !important; 
+}
+.carousel-control-next {
+    right: -20px !important; 
+}
+.btn-danger {
+  background-color: #ea002a !important;
+  border: none !important;
+  width: 80%;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+.btn-danger:hover {
+  background-color: #c00022 !important;
+  transform: translateY(-3px);
+}
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: rgb(226, 28, 28);
+  font-size: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+.deal-card:hover .card-img-top {
+  transform: translateY(-8px);
+  transition: transform 0.3s ease;
+}
+.deal-card:hover .heart-icon {
+  color: red;
+  transform: scale(1.2);
+}
+.square-container {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.small-square {
+  width: 15px;
+  height: 20px;
+  background-color: rgb(196, 44, 44);
+  transition: background-color 0.3s ease;
+}
+.deal-card:hover .small-square {
+  background-color: red;
+}
+.kfc-section-wrapper {
+  background-color: #1C1816; 
+  padding: 60px 0;
+}
+.kfc-card {
+  background-color: #1C1816;
+  border-radius: 2px;
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kfc-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.kfc-card-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+
+.kfc-price-tag {
+  background-color: #dc3545; 
+  color: white;
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 1px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.kfc-card .top-icons {
+  display: flex;
+  justify-content: center;    
+  align-items: flex-start;   
+  margin-top: 0;              
+  padding-top: 0;             
+  position: absolute;        
+  top: 0;                  
+  left: 50%;                
+  transform: translateX(-50%); 
+  z-index: 10;
+}
+
+.kfc-card .square-container {
+  display: flex;
+  gap: 6px;
+}
+
+.kfc-card .small-square {
+  width: 15px;
+  height: 20px;
+  background-color: #ea002a;
+}
+.cart-image-prop {
+    width: 40px; 
+    height: 40px; 
+    position: absolute;
+    right: 130px; 
+    top: 30px; 
+    z-index: 1000; 
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.cart-image-prop:hover {
+    transform: scale(2.2); 
+}
+.offcanvas-start {
+  background-color: #111; 
+  color: rgb(163, 24, 24);
+  width: 20px; 
+  padding: 2px;
+}
+
+.offcanvas-body .nav-link {
+  color: #faf0f0;
+  font-size: 20px;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+
+.offcanvas-body .nav-link:hover {
+  color: #dc3545; 
+  margin-left: 5px;
+}
+body {
+  overflow-x: hidden; 
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  scrollbar-width: none;
+}
+.offcanvas,
+.offcanvas-body {
+  overflow-y: hidden !important;
+}
+.offcanvas::-webkit-scrollbar,
+.offcanvas-body::-webkit-scrollbar {
+  width: 0 !important;
+  display: none !important;
+}
+.logo-image-prop{
+    width: 60px; 
+    height: 60px; 
+    position: absolute; 
+    right: 180px; 
+    top: 10px; 
+    z-index: 1000; 
+    cursor: pointer;
+    transition: transform 0.2s;
+}
